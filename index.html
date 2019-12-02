@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <h1 class="display-3 text-center mb-3">Конвертер величин</h1>
+            <form>
+                <div class="form-group">
+                    <input type="number" name="" id="kmInput" placeholder="Введите км.." 
+                    class="form-control form-control-lg">
+                </div>
+            </form>
+            <div id="output">
+                <div class="card">
+                    <div class="card-block alert-warning mb-2">
+                        <h4>Метры:</h4>
+                        <div id="mettersOutput"></div>
+                    </div>
+                </div>
+                <div class="card">
+                        <div class="card-block alert-primary mb-2">
+                            <h4> Сантиметры:</h4>
+                            <div id="smOutput"></div>
+                        </div>
+                </div>
+                <div class="card">
+                        <div class="card-block alert-success mb-2">
+                            <h4>Миллиметры:</h4>
+                            <div id="mlOutput"></div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
